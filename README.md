@@ -1,5 +1,5 @@
-#Here is what the default /etc/apt/source.list you should have
-#Comment Other Lines and add this:
+## Here is what the default /etc/apt/source.list you should have
+## Comment Other Lines and add this:
 
 deb http://http.kali.org/kali kali-rolling main contrib non-free
 deb http://kali.cs.nctu.edu.tw/kali kali-rolling main contrib non-free
