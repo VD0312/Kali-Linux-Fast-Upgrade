@@ -34,20 +34,24 @@ deb-src http://repo.kali.org/kali kali-rolling main contrib non-free
 $ leafpad /etc/resolv.conf
 
 ## OpenDNS ##
+
 nameserver 208.67.222.222
+
 nameserver 208.67.220.220
 
 ## Google DNS ##
+
 nameserver 8.8.8.8
+
 nameserver 8.8.4.4
 
 
-Save and close the file.
-Before you start updating, clear all apt caches.
+## Save and close the file.
+## Before you start updating, clear all apt caches.
 
 [root@kali]# | apt clean
 
 
-And finally keep your Kali Linux up to date:
+## And finally keep your Kali Linux up to date:
 
 [root@kali]# | apt update && apt upgrade -y && apt dist-upgrade -y
