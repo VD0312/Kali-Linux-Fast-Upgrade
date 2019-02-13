@@ -12,6 +12,21 @@ deb http://http.kali.org/kali kali-rolling main contrib non-free
 
 deb http://kali.cs.nctu.edu.tw/kali kali-rolling main contrib non-free
 
+## Change HTTP to REPO in your sources list
+
+leafpad /etc/apt/sources.list
+
+## instead of:
+
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+
+deb-src http://http.kali.org/kali kali-rolling main contrib non-free
+
+## use:
+deb http://repo.kali.org/kali kali-rolling main contrib non-free
+
+deb-src http://repo.kali.org/kali kali-rolling main contrib non-free
+
 
 
 ## Open and change it into EITHER OpenDNS or Google DNS
